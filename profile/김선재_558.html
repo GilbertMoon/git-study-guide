@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>김선재 | 자기소개 포트폴리오</title>
+
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+
+  <style>
+    html{
+      scroll-behavior:smooth;
+    }
+
+    body{
+      background:#f4f7fb;
+      color:#333;
+      font-family:"Pretendard","Noto Sans KR",sans-serif;
+    }
+
+    .navbar{
+      background:#0d3b66;
+    }
+
+    .navbar-brand,
+    .nav-link{
+      color:white !important;
+      font-weight:500;
+    }
+
+    .hero{
+      background:linear-gradient(135deg,#0d3b66,#2b6cb0);
+      color:white;
+      padding:90px 0;
+    }
+
+    .profile-icon{
+      width:180px;
+      height:180px;
+      border-radius:50%;
+      background:white;
+      color:#0d3b66;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      margin:auto;
+      box-shadow:0 8px 25px rgba(0,0,0,.2);
+    }
+
+    .profile-icon i{
+      font-size:90px;
+    }
+
+    section{
+      padding:80px 0;
+    }
+
+    .section-title{
+      font-weight:700;
+      color:#0d3b66;
+      margin-bottom:30px;
+    }
+
+    .card{
+      border:none;
+      box-shadow:0 5px 15px rgba(0,0,0,.08);
+      transition:.3s;
+    }
+
+    .card:hover{
+      transform:translateY(-5px);
+    }
+
+    .skill-badge{
+      font-size:1rem;
+      padding:10px 16px;
+      margin:6px;
+    }
+
+    .interest-card{
+      height:100%;
+    }
+
+    .icon-box{
+      width:60px;
+      height:60px;
+      border-radius:50%;
+      background:#eaf2ff;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      margin:auto;
+      color:#0d3b66;
+      font-size:28px;
+    }
+
+    .footer{
+      background:#0d3b66;
+      color:white;
+      padding:25px 0;
+    }
+
+    .list-group-item{
+      border:none;
+      padding-left:0;
+    }
+
+    .btn-main{
+      background:#0d3b66;
+      color:white;
+    }
+
+    .btn-main:hover{
+      background:#0b2f52;
+      color:white;
+    }
+  </style>
+</head>
+
+<body>
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg fixed-top shadow">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="#">김선재</a>
+
+    <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="menu">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#about">소개</a></li>
+        <li class="nav-item"><a class="nav-link" href="#interest">관심 분야</a></li>
+        <li class="nav-item"><a class="nav-link" href="#skill">기술</a></li>
+        <li class="nav-item"><a class="nav-link" href="#hobby">취미</a></li>
+        <li class="nav-item"><a class="nav-link" href="#goal">수업 목표</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">연락처</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero -->
+<header class="hero">
+  <div class="container">
+    <div class="row align-items-center g-5">
+
+      <div class="col-lg-4 text-center">
+        <div class="profile-icon">
+          <i class="bi bi-person-circle"></i>
+        </div>
+      </div>
+
+      <div class="col-lg-8 text-center text-lg-start">
+        <h1 class="display-4 fw-bold">김선재</h1>
+        <h4 class="mb-3">컴퓨터공학과</h4>
+
+        <p class="lead">
+          제대로 개발을 해본 적은 없지만,
+          서비스 개발까지 진행해보기 위해
+          열심히 공부를 하고 있습니다.
+        </p>
+
+        <a href="#about" class="btn btn-light btn-lg mt-3">
+          자기소개 보기
+        </a>
+      </div>
+
+    </div>
+  </div>
+</header>
+
+<!-- About -->
+<section id="about">
+  <div class="container">
+
+    <h2 class="section-title text-center">
+      <i class="bi bi-person-lines-fill"></i>
+      자기소개
+    </h2>
+
+    <div class="card p-4">
+      <p class="fs-5 mb-3">
+        안녕하세요. 컴퓨터공학을 전공하며 다양한 프로그래밍 기술을 배우고 있는 김선재입니다.
+      </p>
+
+      <p class="fs-5 mb-3">
+        현재는 Python과 데이터 분석에 관심을 가지고 기초부터 차근차근 학습하고 있으며,
+        실제 서비스를 개발할 수 있는 역량을 키우기 위해 꾸준히 공부하고 있습니다.
+      </p>
+
+      <p class="fs-5 mb-3">
+        새로운 기술을 배우는 과정 자체를 즐기며,
+        팀 프로젝트를 통해 협업 경험과 실무 개발 방식을 익히고 싶습니다.
+      </p>
+
+      <p class="fs-5">
+        앞으로 다양한 프로젝트를 수행하며 꾸준히 성장하는 개발자가 되는 것이 목표입니다.
+      </p>
+
+    </div>
+
+  </div>
+</section>
+
+<!-- Interest -->
+<section id="interest" class="bg-white">
+  <div class="container">
+
+    <h2 class="section-title text-center">
+      <i class="bi bi-stars"></i>
+      관심 분야
+    </h2>
+
+    <div class="row g-4">
+
+      <div class="col-md-3">
+        <div class="card interest-card text-center p-4">
+          <div class="icon-box mb-3">
+            <i class="bi bi-filetype-py"></i>
+          </div>
+          <h5>Python</h5>
+          <p class="text-muted">
+            가장 관심 있게 공부하고 있는 프로그래밍 언어입니다.
+          </p>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card interest-card text-center p-4">
+          <div class="icon-box mb-3">
+            <i class="bi bi-bar-chart-line"></i>
+          </div>
+          <h5>데이터 분석</h5>
+          <p class="text-muted">
+            데이터를 분석하고 의미 있는 결과를 도출하는 과정에 관심이 있습니다.
+          </p>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card interest-card text-center p-4">
+          <div class="icon-box mb-3">
+            <i class="bi bi-window"></i>
+          </div>
+          <h5>웹 개발</h5>
+          <p class="text-muted">
+            사용자에게 서비스를 제공하는 웹 개발을 배우고 싶습니다.
+          </p>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card interest-card text-center p-4">
+          <div class="icon-box mb-3">
+            <i class="bi bi-people"></i>
+          </div>
+          <h5>협업 개발</h5>
+          <p class="text-muted">
+            Git과 GitHub를 활용한 협업 개발 방식에 관심이 있습니다.
+          </p>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="text-center mt-5">
+      <span class="badge bg-primary skill-badge">Python</span>
+      <span class="badge bg-success skill-badge">데이터 분석</span>
+      <span class="badge bg-info text-dark skill-badge">웹 개발</span>
+      <span class="badge bg-secondary skill-badge">Git</span>
+      <span class="badge bg-dark skill-badge">GitHub</span>
+    </div>
+
+  </div>
+</section>
+
+<!-- Skills -->
+<section id="skill">
+  <div class="container">
+
+    <h2 class="section-title text-center">
+      <i class="bi bi-cpu"></i>
+      보유 기술 및 학습 중인 기술
+    </h2>
+
+    <div class="card p-4">
+
+      <h5>Python <span class="badge bg-primary">학습 중</span></h5>
+      <div class="progress mb-4" style="height:25px;">
+        <div class="progress-bar bg-primary" style="width:55%;">
+          학습 중
+        </div>
+      </div>
+
+      <h5>데이터 분석 <span class="badge bg-success">입문</span></h5>
+      <div class="progress mb-4" style="height:25px;">
+        <div class="progress-bar bg-success" style="width:40%;">
+          입문
+        </div>
+      </div>
+
+      <h5>HTML / Bootstrap <span class="badge bg-info text-dark">학습 중</span></h5>
+      <div class="progress mb-4" style="height:25px;">
+        <div class="progress-bar bg-info text-dark" style="width:45%;">
+          학습 중
+        </div>
+      </div>
+
+      <h5>Git & GitHub <span class="badge bg-secondary">입문</span></h5>
+      <div class="progress" style="height:25px;">
+        <div class="progress-bar bg-secondary" style="width:35%;">
+          입문
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<!-- Hobby -->
+<section id="hobby" class="bg-white">
+  <div class="container">
+
+    <h2 class="section-title text-center">
+      <i class="bi bi-heart"></i>
+      취미와 관심사
+    </h2>
+
+    <div class="row g-4">
+
+      <div class="col-md-3">
+        <div class="card text-center p-4">
+          <i class="bi bi-tree-fill display-5 text-success"></i>
+          <h5 class="mt-3">산책</h5>
+          <p class="text-muted">
+            여유롭게 산책하며 기분을 전환하는 것을 좋아합니다.
+          </p>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card text-center p-4">
+          <i class="bi bi-airplane-fill display-5 text-primary"></i>
+          <h5 class="mt-3">여행</h5>
+          <p class="text-muted">
+            새로운 장소를 경험하며 다양한 문화를 접하는 것을 좋아합니다.
+          </p>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card text-center p-4">
+          <i class="bi bi-book-fill display-5 text-warning"></i>
+          <h5 class="mt-3">독서</h5>
+          <p class="text-muted">
+            다양한 분야의 책을 읽으며 새로운 지식을 얻습니다.
+          </p>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card text-center p-4">
+          <i class="bi bi-film display-5 text-danger"></i>
+          <h5 class="mt-3">영화 감상</h5>
+          <p class="text-muted">
+            다양한 장르의 영화를 감상하는 것을 즐깁니다.
+          </p>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<!-- Goal -->
+<section id="goal">
+  <div class="container">
+
+    <h2 class="section-title text-center">
+      <i class="bi bi-flag"></i>
+      이번 수업의 목표
+    </h2>
+
+    <div class="card p-4">
+
+      <ul class="list-group list-group-flush">
+
+        <li class="list-group-item">
+          <i class="bi bi-check-circle-fill text-primary"></i>
+          Git과 GitHub를 활용한 버전 관리 방법을 익히고 싶습니다.
+        </li>
+
+        <li class="list-group-item">
+          <i class="bi bi-check-circle-fill text-primary"></i>
+          팀 프로젝트에서 협업하는 과정과 효율적인 개발 방법을 배우고 싶습니다.
+        </li>
+
+        <li class="list-group-item">
+          <i class="bi bi-check-circle-fill text-primary"></i>
+          캡스톤 프로젝트를 진행하며 실제 서비스 개발 경험을 쌓고 싶습니다.
+        </li>
+
+        <li class="list-group-item">
+          <i class="bi bi-check-circle-fill text-primary"></i>
+          Python을 활용한 데이터 분석과 웹 서비스를 직접 만들어 보고 싶습니다.
+        </li>
+
+      </ul>
+
+    </div>
+
+  </div>
+</section>
+
+<!-- Contact -->
+<section id="contact" class="bg-white">
+  <div class="container">
+
+    <h2 class="section-title text-center">
+      <i class="bi bi-envelope"></i>
+      연락처 및 링크
+    </h2>
+
+    <div class="row justify-content-center">
+
+      <div class="col-lg-8">
+
+        <div class="card p-4">
+
+          <p>
+            <i class="bi bi-github fs-4 me-2"></i>
+            <strong>GitHub</strong><br>
+            https://github.com/your-github-id
+          </p>
+
+          <hr>
+
+          <p class="mb-0">
+            <i class="bi bi-envelope-fill fs-4 me-2"></i>
+            <strong>Email</strong><br>
+            비공개
+          </p>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer text-center">
+  <div class="container">
+    <h5 class="mb-2">김선재</h5>
+    <p class="mb-1">© 2026</p>
+    <p class="mb-0">
+      꾸준한 학습과 협업으로 성장하는 개발자가 되겠습니다.
+    </p>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
